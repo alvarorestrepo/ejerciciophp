@@ -1,0 +1,267 @@
+.body{
+    background-image: url("../img/fondo3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    overflow: hidden;
+   
+    font-family: 'Numans', sans-serif;
+}
+
+.loginfondo{
+    background-image: url("../img/fondopostits.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin-top: 0px;
+    overflow: hidden;
+    font-family: 'Numans', sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+
+.container{
+height: 100%;
+align-content: center;
+margin-top: 80px;
+}
+
+.texto{
+    position: absolute;
+    top: 55px;
+    left: 30px;
+    max-width: 200px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(230, 230, 229, 0);
+}
+.fondobody{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    /* grid-template-rows: 250px; */
+    grid-auto-rows: 250px;
+    grid-gap: 15px;
+}
+.coco{
+    /* border: solid; */
+    position: relative;
+    
+}
+.posit{
+    width: 100%;
+    float: left;
+}
+
+.card{
+height: 370px;
+margin-top: 100px;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #FF4D00;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FF4D00;
+color: black;
+border:0 !important;
+}
+
+.input-group-prepend .mm{
+    width: 50px;
+    background-color: rgb(170, 170, 172);
+    color: black;
+    border:0 !important;
+    }
+
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FF4D00;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+/* *{
+    margin:0;
+  }
+  */
+  .conte{
+    width:90px;
+    height:240px;
+    position: fixed;
+    left: 0px;
+    top: 10px;
+  }
+  .botonF1{
+    width:60px;
+    height:60px;
+    border-radius:100%;
+    background:#F44336;
+    /* right:0;
+    bottom:0; */
+    /* position:absolute; */
+    margin-left:16px;
+    margin-bottom:16px;
+    border:none;
+    outline:none;
+    color:#FFF;
+    font-size:36px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition:.3s;  
+    font-family: 'Numans', sans-serif;
+  }
+  span{
+    transition:.5s;  
+  }
+  .botonF1:hover span{
+    transform:rotate(360deg);
+  }
+  .botonF1:active{
+    transform:scale(1.1);
+  }
+  .conten{
+    width:90px;
+    height:240px;
+    position: fixed;
+    right: 110px;
+    top: 10px;
+  }
+  .botonF2{
+    width:180px;
+    height:50px;
+    border-radius:10%;
+    background:rgba(215, 211, 236, 0.685);
+    right:0;
+    /* bottom:0; */
+    position:absolute;
+    margin-left:20px;
+    margin-bottom:16px;
+    border:none;
+    outline:none;
+    color:rgb(82, 75, 75);
+    font-size:15px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition:.3s;  
+    font-family: 'Numans', sans-serif;
+  }
+  .borrar{
+    width:200px;
+    height:200px;
+    position: fixed;
+    left: 0px;
+    bottom:  0px;
+    /* background-color: teal;  */
+   
+    
+  }
+  .botonF3{
+    width:120px;
+    height:120px;
+    border-radius:100%;
+    background-color: rgba(189, 189, 15, 0.555);
+
+    /* right:0; */
+    /* bottom:0;  */
+    /* position:absolute; */
+    margin-left:20px;
+    /* margin-bottom:50px; */
+    border:none;
+    outline:none;
+    color:#FFF;
+    font-size:36px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition:.3s;  
+    font-family: 'Numans', sans-serif;
+  }
+  .borrado{
+    background:#F44336;
+    width:200px;
+    height:200px;
+
+  }
+  .botonEditar{
+    width:40px;
+    height:40px;
+    border-radius:100%;
+    background-color: rgba(0, 38, 255, 0.658);
+
+    /* right:0; */
+    /* bottom:0;  */
+    position:absolute;
+    margin-left:-70px;
+    /* margin-bottom:50px; */
+    margin-top: 230px;
+    border:none;
+    outline:none;
+    color:#FFF;
+    font-size:36px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition:.3s;  
+    font-family: 'Numans', sans-serif;
+  }
+  .iconedit{
+    font-size: 20px;
+    position:absolute;
+    margin-top: -10px;
+    margin-left: -10px;
+  }
+
+  
+
+  
+  
